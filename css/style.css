@@ -1,0 +1,400 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* #dropdownMenuLink
+{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.dropdown-item,.dropdown-menu
+{
+    background-color: #f0f0f0;
+} */
+
+.dropdown_X {
+    position: relative;
+    display: inline-block;
+    color: #886bae;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 40px;
+    box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.4);
+    z-index: 1;
+  }
+  
+  .dropdown_X:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown_X img
+  {
+      width: 30px;
+      height: 100%;
+      padding-top: 0.5rem;
+  }
+
+
+  .navbar-expand-lg span {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .navbar-expand-lg span:before, span:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    top: 120%;
+    margin-top: -0.5px;
+    background: #886bae;
+  }
+  
+  .navbar-expand-lg span:before {
+    left: -2.5px;
+  }
+  .navbar-expand-lg span:after {
+    right: 2.5px;
+    background: #886bae;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+  .navbar-expand-lg span:hover:before {
+    background: #886bae;
+    background: linear-gradient(270deg, rgba(226,55,185,1) 0%, rgba(92,73,233,1) 100%); 
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+  .navbar-expand-lg span:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }
+  
+  
+.navbar-expand-lg .navbar-nav  #login
+{
+    color: #310754;
+    border-radius: 0.75rem;
+    font-weight: 600;
+}
+.navbar-expand-lg .navbar-nav  #payment
+{
+    background: rgb(226,55,185);
+    background: linear-gradient(270deg, rgba(226,55,185,1) 0%, rgba(92,73,233,1) 100%); 
+    color: #fafafa;
+    border-radius: 0.75rem;
+    font-weight: 600;
+}
+.navbar-expand-lg .navbar-nav  #payment:hover
+{
+    transition-duration: 0.1ms;
+    background: #310754;
+    color: #fafafa;
+    border-radius: 0.75rem;
+    transition:  ease-out 0.5s;
+}
+.navbar-expand-lg .navbar-nav  #payment:focus
+{
+    transition-duration: 0.1ms;
+    outline: 1.5px solid  rgba(226,55,185,1);
+}
+.navbar-expand-lg .navbar-nav  #login:hover
+{
+    background: #310754;
+    color: #fafafa;
+    border-radius: 0.75rem;
+    transition:  ease-out 0.5s;
+}
+.navbar-expand-lg .navbar-nav  #login:focus
+{
+    outline: 1.5px solid  rgba(226,55,185,1);
+}
+
+
+
+
+.header_text .text
+{
+    font-size: 4.2rem;
+    color: #886bae;
+}
+.header_text h5
+{
+    color: #886bae;
+}
+.header_button
+{
+    background: rgb(226,55,185);
+    background: linear-gradient(270deg, rgba(226,55,185,1) 0%, rgba(92,73,233,1) 100%); 
+    color: #fafafa;
+    border-radius: 0.75rem;
+    text-decoration: none;
+    box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.4);
+    font-weight: 600;
+}
+.header_button:hover
+{
+    background: #310754;
+    color: #fafafa;
+    border-radius: 0.75rem;
+    transition:  ease-out 0.5s;
+}
+.header_button:focus
+{
+    outline: 1.5px solid  rgba(226,55,185,1);
+}
+.header_image  img
+{
+    width: 95%;
+}
+
+
+
+#social_media_icons
+{
+    color: #886bae;
+    text-decoration: none;
+}
+#social_media_icons a
+{
+    color: #886bae;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: none;
+}
+#social_media_icons a:hover
+{
+    color:rgba(226,55,185,1);
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+}
+.line:before
+{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 8rem;
+    background-color: #886bae;
+}
+
+body
+{
+ background-color: #380A62;
+
+}
+
+#container{
+	margin-top: 4em;
+}
+.services .circle 
+{
+position: absolute;
+}
+.services .circle .circle-1
+{
+    position: relative;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    background-color: #310754;
+    left: 0.3rem;
+}
+
+.services .circle .circle-2
+{
+    position: relative;
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+    background: rgb(226,55,185);
+    background: linear-gradient(270deg, rgba(226,55,185,1) 0%, rgba(92,73,233,1) 100%); 
+    left: 13rem;
+    top: 17rem;
+}
+
+.services .circle .circle-3
+{
+    position: relative;
+    border-radius: 50%;
+    width: 18rem;
+    height: 18rem;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%); 
+    left: 33rem;
+    top: 4rem;
+}
+.services .circle .circle-4
+{
+    position: relative;
+    border-radius: 50%;
+    width: 18rem;
+    height: 18rem;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%); 
+    left: 33rem;
+    top: 45rem;
+}
+.services .circle .circle-5
+{
+    position: absolute;
+    border-radius: 50%;
+    width: 18rem;
+    height: 18rem;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(249,30,229,1) 48%, rgba(29,253,239,1) 100%); 
+    left: 0.4rem;
+    top: 70rem;
+    z-index: -99;
+}
+
+#card_services
+{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.35);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+-moz-backdrop-filter: blur(8.5px);
+border: 1px solid rgba(255, 255, 255, 0.41);
+}
+
+#card_glass_button
+{
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.8);
+    border: 1px solid rgba(255,255,255,1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    color: rgb(131,58,180);
+    font-weight: 700;
+}
+#card_glass_button:hover
+{
+    transition-delay: 0.05s;
+    font-weight: 500;
+    background: linear-gradient(270deg, rgba(226,55,185,1) 0%, rgba(92,73,233,1) 100%); 
+    color: #fafafa;  
+}
+#services_form .form
+{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.33);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.9px);
+-webkit-backdrop-filter: blur(6.9px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+font-weight: 600;
+}
+.circle .circle-1
+{
+    position: absolute;
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+    background: rgb(226,55,185);
+    background: linear-gradient(270deg, rgba(226,55,185,1) 0%, rgba(92,73,233,1) 100%); 
+    left: 2rem;
+    top: 33rem;
+    z-index: -999;
+}
+.circle .circle-2
+{
+    position: absolute;
+    border-radius: 50%;
+    width: 18rem;
+    height: 18rem;
+    background: rgb(81, 27, 117);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(249,30,229,1) 48%, rgba(29,253,239,1) 100%); 
+    left: 60rem;
+    top: 7rem;
+    z-index: -999;
+}
+.text_msm
+{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(62, 28, 85);
+}
+.text_msm h5
+{
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.text_msm i
+{
+    font-weight: 400;
+}
+.text_msm_profil
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(250, 244, 255);
+}
+.text_msm_profil h5
+{
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.text_msm_profil i
+{
+    font-weight: 400;
+}
+
+.navbar-expand-lg .navbar-nav  #login_profil
+{
+    color: #fafafa;
+    border-radius: 0.75rem;
+    font-weight: 600;
+}
+.navbar-expand-lg .navbar-nav  #payment_profil
+{
+    background: rgb(226,55,185);
+    background: linear-gradient(270deg, rgba(226,55,185,1) 0%, rgba(92,73,233,1) 100%); 
+    color: #fafafa;
+    border-radius: 0.75rem;
+    font-weight: 600;
+}
+.navbar-expand-lg .navbar-nav  #payment_profil:hover
+{
+    transition-duration: 0.1ms;
+    background: #310754;
+    color: #fafafa;
+    border-radius: 0.75rem;
+    transition:  ease-out 0.5s;
+}
+.navbar-expand-lg .navbar-nav  #payment_profil:focus
+{
+    transition-duration: 0.1ms;
+    outline: 1.5px solid  rgba(226,55,185,1);
+}
+.navbar-expand-lg .navbar-nav  #login_profil:hover
+{
+    background: #310754;
+    color: #fafafa;
+    border-radius: 0.75rem;
+    transition:  ease-out 0.5s;
+}
+.navbar-expand-lg .navbar-nav  #login_profil:focus
+{
+    outline: 1.5px solid  rgba(226,55,185,1);
+}
+
+
+
